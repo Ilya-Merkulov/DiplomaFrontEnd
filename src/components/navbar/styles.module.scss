@@ -1,0 +1,31 @@
+.link {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+.navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.leftnavbar {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightnavbar{
+    display: flex;
+    column-gap: 10px;
+}
+// .searchField {
+//     color: white;
+//     border: 1px white solid;
+
+//     &::placeholder {
+//         /* Chrome, Firefox, Opera, Safari 10.1+ */
+//         color: red !important;
+//         opacity: 1;
+//         /* Firefox */
+//     }
+// }
