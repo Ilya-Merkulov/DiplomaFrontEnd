@@ -3,20 +3,38 @@
     height: 80vh;
     margin: auto;
     padding: 20px 50px;
-    background-color: gray;
+    // background-color: gray;
 
     position: absolute;
     top: 50%;
     left: 50%;
 
-    text-align: center;
+    text-align: left;
     display: flex;
-    flex-direction: column;
-    row-gap: 12px;
+    flex-direction: row;
+    column-gap: 40px;
 
     
     transform: translate(-50%, -45%);
 
+}
+
+.productImage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.productInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+}
+
+.productInfoField{
+    width: 40%;
 }
 
 .fields{
@@ -31,3 +49,5 @@
     row-gap: 12px;
     margin: 20px auto;
 }
+
+  

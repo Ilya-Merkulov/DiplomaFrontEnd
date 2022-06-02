@@ -3,6 +3,7 @@
 
 import { Product } from "../interfaces/product";
 import { api } from "./confige";
+import * as React from 'react';
 
 export const getAllProducts = async (): Promise<Product[]> => {
     const url = `/shop/product/`;
@@ -21,3 +22,10 @@ export const getAllProducts = async (): Promise<Product[]> => {
   
     return response.data as Product;
   };
+
+
+  export default function BadgeVisibility() {
+    const [count, setCount] = React.useState(1);
+    const [invisible, setInvisible] = React.useState(false);
+  
+  }

@@ -17,7 +17,7 @@ export interface Product {
   description: string;
   price: number;
   image?: string;
-  available: string;
+  available: boolean;
   created: string;
   updated: string;
   brand: Brand;
